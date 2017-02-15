@@ -85,7 +85,7 @@ public class Mergesort {
 
     //main method for testing
     public static void main( String [] args ) {
-
+	/*
 	int[] arr0 = {0};
 	int[] arr1 = {1};
 	int[] arr2 = {1,2};
@@ -95,7 +95,7 @@ public class Mergesort {
 	int[] arr6 = {9,42,17,63,0,512,23};
 	int[] arr7 = {9,42,17,63,0,9,512,23,9};
 
-	/*	System.out.println("\nTesting mess-with-array method...");
+		System.out.println("\nTesting mess-with-array method...");
 	printArray( arr3 );
 	mess(arr3);
 	printArray( arr3 );
