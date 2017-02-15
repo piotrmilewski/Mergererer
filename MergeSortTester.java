@@ -28,10 +28,23 @@ public class MergeSortTester
      * <INSERT YOUR DESCRIPTION HERE OF 
      *  YOUR APPARATUS FOR GENERATING EXECUTION 
      *  TIME DATA...>
+     * Find the runtime in nanoseconds for Arrays of different sizes
+     * Put them into a graph 
+     * Figure out which graph it is most similar to
      ******************************/
-    public static void main( String[] args ) 
-    {
+    public static void main( String[] args )   
+{
+    int[] arr0 = {0};
+    int[] arr1 = {1};
+    int[] arr2 = {1,2};
+    int[] arr3 = {3,4};
+    int[] arr4 = {1,2,3,4};
+    int[] arr5 = {4,3,2,1};
+    int[] arr6 = {9,42,17,63,0,512,23};
+    int[] arr7 = {9,42,17,63,0,9,512,23,9};
 
+    Mergesort.sort(arr7);
+    System.out.println(System.nanoTime());
     }//end main
 
 }//end class

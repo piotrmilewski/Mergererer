@@ -95,7 +95,7 @@ public class Mergesort {
 	int[] arr6 = {9,42,17,63,0,512,23};
 	int[] arr7 = {9,42,17,63,0,9,512,23,9};
 
-	System.out.println("\nTesting mess-with-array method...");
+	/*	System.out.println("\nTesting mess-with-array method...");
 	printArray( arr3 );
 	mess(arr3);
 	printArray( arr3 );
@@ -117,7 +117,7 @@ public class Mergesort {
 	printArray( sort( arr5 ) );
 	printArray( sort( arr6 ) );
 	printArray( sort( arr7 ) );
-	
+	*/
     }//end main()
 
 }//end class MergeSort
